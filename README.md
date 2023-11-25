@@ -37,15 +37,19 @@ Follow these simple steps to set up the Dynamic Color Picker extension:
 4. **Load the Extension in Chrome:**
 
 - Open Chrome and navigate to chrome://extensions/
+
   ![Dynamic Color Picker](https://res.cloudinary.com/df9fyawpk/image/upload/v1700915854/Dynamic%20color%20picker/Screenshot_2023-11-25_180700_ckrrwo.png)
 
 - Enable Developer mode:
+
   ![Dynamic Color Picker](https://res.cloudinary.com/df9fyawpk/image/upload/v1700916131/Dynamic%20color%20picker/Screenshot_2023-11-25_181201_hxi9rb.png)
 
 - Click on "Load Unpacked" and select the "build" directory in your dynamic-color-picker project folder.
+
   ![Dynamic Color Picker](https://res.cloudinary.com/df9fyawpk/image/upload/v1700916352/Dynamic%20color%20picker/Screenshot_2023-11-25_181539_oafdje.png)
 
 - select folder
+
   ![Dynamic Color Picker](https://res.cloudinary.com/df9fyawpk/image/upload/v1700916603/Dynamic%20color%20picker/Screenshot_2023-11-25_181912_ecr248.png)
 
 **The extension is now ready to use.**
