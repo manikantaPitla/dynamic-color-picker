@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Dynamic Color Picker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Dynamic Color Picker](https://res.cloudinary.com/df9fyawpk/image/upload/v1700914847/Dynamic%20color%20picker/Screenshot_2023-11-25_174804_ocd62v.png)
 
-## Available Scripts
+Dynamic Color Picker is an open-source React-based extension that allows you to pick colors from web pages, color pickers, and keeps track of your personal color history.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Color Picking:** Use the eye dropper tool to easily pick colors from your browser.
+- **Color Information:** Display color information in various formats such as HEX, RGB, and RGBA.
+- **Clipboard Copy:** Copy color values to your clipboard with a single click.
+- **Recent Colors:** View and reuse your most recently picked colors from your color history.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Follow these simple steps to set up the Dynamic Color Picker extension:
 
-### `npm test`
+1. **Clone the Repository:**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```bash
+   git clone https://github.com/your-username/dynamic-color-picker.git
+   cd dynamic-color-picker
+   ```
 
-### `npm run build`
+2. **Install Dependencies:**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   npm install
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Build the Extension:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   npm run build
+   ```
 
-### `npm run eject`
+4. **Load the Extension in Chrome:**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Open Chrome and navigate to chrome://extensions/
+  ![Dynamic Color Picker](https://res.cloudinary.com/df9fyawpk/image/upload/v1700915854/Dynamic%20color%20picker/Screenshot_2023-11-25_180700_ckrrwo.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Enable Developer mode:
+  ![Dynamic Color Picker](https://res.cloudinary.com/df9fyawpk/image/upload/v1700916131/Dynamic%20color%20picker/Screenshot_2023-11-25_181201_hxi9rb.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Click on "Load Unpacked" and select the "build" directory in your dynamic-color-picker project folder.
+  ![Dynamic Color Picker](https://res.cloudinary.com/df9fyawpk/image/upload/v1700916352/Dynamic%20color%20picker/Screenshot_2023-11-25_181539_oafdje.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- select folder
+  ![Dynamic Color Picker](https://res.cloudinary.com/df9fyawpk/image/upload/v1700916603/Dynamic%20color%20picker/Screenshot_2023-11-25_181912_ecr248.png)
 
-## Learn More
+**The extension is now ready to use.**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Dynamic Color Picker](https://res.cloudinary.com/df9fyawpk/image/upload/v1700916700/Dynamic%20color%20picker/Screenshot_2023-11-25_182125_h9vobw.png)
