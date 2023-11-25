@@ -1,25 +1,15 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+  "manifest_version": 3,
+  "name": "Dynamic Color Picker",
+  "version": "1.0",
+  "description": "Dynamic Color Picker is open source extension which allows you to pick colors from web pages, color picker and your personal color history.",
+  "action": {
+    "default_icon": {
+      "16": "./icon.png",
+      "48": "./icon.png",
+      "128": "./icon.png"
     },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+    "default_popup": "index.html"
+  },
+  "permissions": ["activeTab"]
 }
