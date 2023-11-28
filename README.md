@@ -18,7 +18,7 @@ Follow these simple steps to set up the Dynamic Color Picker extension:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-username/dynamic-color-picker.git
+   git clone https://github.com/manikantaPitla/dynamic-color-picker.git
    cd dynamic-color-picker
    ```
 
