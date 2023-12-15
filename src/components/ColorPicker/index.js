@@ -167,21 +167,18 @@ function ColorPicker() {
               >
                 <GrClear />
               </button>
-              {recentColors.slice(0, 10).map((eachColor, index) => {
-                console.log(eachColor.hex);
-                return (
-                  <li key={index}>
-                    <button
-                      style={{ backgroundColor: `${eachColor.hex}` }}
-                      className="recent-color-item"
-                      onClick={() => {
-                        setCurrentColor(eachColor.hex);
-                        setRgbColor(eachColor.rgba);
-                      }}
-                    ></button>
-                  </li>
-                );
-              })}
+              {recentColors.slice(0, 10).map((eachColor, index) => (
+                <li key={index}>
+                  <button
+                    style={{ backgroundColor: `${eachColor.hex}` }}
+                    className="recent-color-item"
+                    onClick={() => {
+                      setCurrentColor(eachColor.hex);
+                      setRgbColor(eachColor.rgba);
+                    }}
+                  ></button>
+                </li>
+              ))}
             </>
           )}
         </ul>
