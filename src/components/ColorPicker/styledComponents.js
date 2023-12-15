@@ -130,10 +130,6 @@ export const RecentColorsContainer = styled.div`
 
   li {
     list-style: none;
-    width: 35px;
-    height: 35px;
-    border-radius: 50px;
-    border: 1px solid rgba(0, 0, 0, 0.4);
     transition: 0.2s ease-in-out;
 
     &:hover {
@@ -148,8 +144,8 @@ export const RecentColorsContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    border: none;
     background-color: rgba(0, 0, 0, 0.06);
+    border: 1px solid rgba(0, 0, 0, 0.4);
 
     svg {
       font-size: 22px;
